@@ -1,0 +1,184 @@
+
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Playfair Display', serif; }
+
+a{ color: white; text-decoration: none; }
+
+html{
+	height: 100%;
+	width: 100%;
+	/*background: rgb(30,201,203);
+	background: linear-gradient(238deg, rgba(30,201,203,1) 27%, rgba(251,183,24,1) 73%) fixed;*/
+	position: absolute;
+}
+
+body{
+	width: auto;
+	height: auto;
+}
+
+header{
+	width: 100%;
+	height: 100vh;
+    /*background: rgb(30,201,203);
+	background: linear-gradient(238deg, rgba(30,201,203,1) 27%, rgba(251,183,24,1) 73%) fixed;*/
+	position: absolute;
+	background-size: cover;
+}
+
+nav{
+	width: 100%;
+	height: 15vh; 
+	display: flex;
+	justify-content: space-around;  
+	align-items: center;
+	position: fixed;
+}
+
+#backimg{
+	width:100%;
+	background-size: cover;
+	position: absolute;
+  height: 100%;
+}
+.logo a{
+	font-size: 1.6rem;
+	text-transform: uppercase;
+}
+
+.menu ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.menu ul li a{
+	text-transform: capitalize;
+	font-size: 20px;
+	color: white;	
+}
+
+
+#home:hover {
+  border-bottom: 3px solid yellow;
+  color:yellow;
+}
+
+#contact:hover {
+  border-bottom: 3px solid yellow;
+  color:yellow;
+}
+#services:hover {
+  border-bottom: 3px solid yellow;
+  color:yellow;
+}
+
+
+#login:hover {
+  border-bottom: 3px solid yellow;
+  color:yellow;
+ } 
+
+/*////// center-content \\\\\\\*/
+
+.center_content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+	text-align: center;
+}
+
+.center_content h1{
+	font-size: 70px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	/*z-index: 1;*/
+}
+
+#vs{
+	position: relative;
+}
+
+p{
+	position: relative;
+}
+
+
+.center_content h2{
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: capitalize;
+	/*z-index: 1;*/
+}
+
+/* font awesome style */
+
+#icons{
+	width: 100px;
+	height: auto;
+	position: absolute;
+	right: 0;
+	top: 40%;
+} 
+
+#logoText{
+	font-size: 40px;
+	color: white;
+}
+.p_icon{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.p_icon:nth-child(even){
+	margin: 20px 0;
+}
+
+.color {
+	color: white;
+}
+
+.color a{
+	color: white;
+}
+
+#youtube:hover{
+	background: red;
+}
+
+#download:hover{
+	background: green;
+}
+
+#facebook:hover{
+	background: darkblue;
+}
+
+main{	
+	padding: 800px 0px;	
+}
+
+main p{
+	color: white;
+	display: inline;
+	float: left;
+}
+
+main img{
+	float: right;
+	display: inline;
+}
+#icons{
+  position: fixed;
+}
+
+/*center line*/
+#introLine1{
+	font-family: 'Quicksand', sans-serif;
+  padding:0px 500px;
+  font-size: 19px;
+}
